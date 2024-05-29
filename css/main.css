@@ -2019,6 +2019,7 @@ span.brown {
   position: relative;
 }
 
+.banner-slider__slide picture,
 .banner-slider__slide img {
   position: absolute;
   width: 100%;
