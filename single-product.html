@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="files/favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="css/main.min.css?_v=20240531185432">
+	<link rel="stylesheet" href="css/main.min.css?_v=20240601132446">
 	<title>Магазин мужских аксессуаров из натуральной кожи в Минске - Rembini.by</title>
    <meta name="description" content="Ваше описание здесь. Это описание будет отображаться в результатах поиска.">
 </head>
@@ -15,7 +15,7 @@
    <div class="wrapper">
 
       <!-- header -->
-      <header class="header lock-padding">
+      <header class="header" id="header">
    <!-- header-top -->
    <div class="header-top">
       <div class="container">
@@ -34,14 +34,15 @@
                <!-- navigation menu -->
                <ul class="header-top__list">
                   <li><a href="#">Оплата и доставка</a></li>
-                  <li><a href="#">О магазине</a></li>
+                  <li><a href="about.html">О магазине</a></li>
                   <li><a href="#">Контакты</a></li>
                   <li><a href="#">Бренды</a></li>
                   <li><a href="#">Сертификаты</a></li>
-                  <li><a href="#">Статьи</a></li>
+                  <li><a href="article.html">Статьи</a></li>
                   <li><a href="#">Отзывы</a></li>
                   <li><a href="#">Карта лояльности</a></li>
                   <li><a href="#">Гарантии</a></li>
+                  <!-- <li><a href="actions.html">Акции</a></li> -->
                </ul>
             </div>
 
@@ -443,9 +444,9 @@
                               </div>
                               <div class="sidebar-price__btn">
                                  <div class="light-btn">
-                                    <div class="light-btn__link">
+                                    <a href="#engraving" class="light-btn__link popup-link">
                                        <img src="img/svg/plus.svg" width="" height="" alt="" title="">
-                                    </div>
+                                    </a>
                                  </div>
                               </div>
                            </div>
@@ -461,7 +462,8 @@
                                        <div class="sidebar-price__text-bottom">гравировка изделий</div>
                                     </div>
                                     <div class="text-btn">
-                                       <a href="#" class="text-btn__link popup-link">Добавить подарочную упаковку</a>
+                                       <a href="#upakovka" class="text-btn__link popup-link">Добавить подарочную
+                                          упаковку</a>
                                     </div>
                                  </div>
                               </div>
@@ -473,44 +475,46 @@
                                     <a href="#" class="text-btn__link popup-link">Открыть таблицу размеров</a>
                                  </div>
 
-                                 <div class="main-category__cat-list">
-                                    <div class="main-category__cat-list-item">
-                                       <a href="#" class="main-category__cat-list-link">
-                                          <div class="main-category__cat-list-text">21</div>
-                                       </a>
+                                 <div class="engraving__radio">
+                                    <div class="engraving__radio-item">
+                                       <input type="radio" id="22" checked name="engraving" value="22"
+                                          class="engraving__radio-input">
+                                       <label for="22" class="engraving__radio-link">22</label>
                                     </div>
-                                    <div class="main-category__cat-list-item">
-                                       <a href="#" class="main-category__cat-list-link">
-                                          <div class="main-category__cat-list-text">32</div>
-                                       </a>
+                                    <div class="engraving__radio-item">
+                                       <input type="radio" id="24" name="engraving" value="24"
+                                          class="engraving__radio-input">
+                                       <label for="24" class="engraving__radio-link">24</label>
                                     </div>
-                                    <div class="main-category__cat-list-item">
-                                       <a href="#" class="main-category__cat-list-link">
-                                          <div class="main-category__cat-list-text">34</div>
-                                       </a>
+                                    <div class="engraving__radio-item">
+                                       <input type="radio" id="26" name="engraving" value="26"
+                                          class="engraving__radio-input">
+                                       <label for="26" class="engraving__radio-link">26</label>
                                     </div>
-                                    <div class="main-category__cat-list-item">
-                                       <a href="#" class="main-category__cat-list-link">
-                                          <div class="main-category__cat-list-text">36</div>
-                                       </a>
+                                    <div class="engraving__radio-item">
+                                       <input type="radio" id="28" name="engraving" value="28"
+                                          class="engraving__radio-input">
+                                       <label for="28" class="engraving__radio-link">28</label>
                                     </div>
-
-                                    <div class="main-category__cat-list-item">
-                                       <a href="#" class="main-category__cat-list-link">
-                                          <div class="main-category__cat-list-text">38</div>
-                                       </a>
+                                    <div class="engraving__radio-item">
+                                       <input type="radio" id="30" name="engraving" value="30"
+                                          class="engraving__radio-input">
+                                       <label for="30" class="engraving__radio-link">30</label>
                                     </div>
-
-                                    <div class="main-category__cat-list-item">
-                                       <a href="#" class="main-category__cat-list-link">
-                                          <div class="main-category__cat-list-text">40</div>
-                                       </a>
+                                    <div class="engraving__radio-item">
+                                       <input type="radio" id="32" name="engraving" value="32"
+                                          class="engraving__radio-input">
+                                       <label for="32" class="engraving__radio-link">32</label>
                                     </div>
-
-                                    <div class="main-category__cat-list-item">
-                                       <a href="#" class="main-category__cat-list-link">
-                                          <div class="main-category__cat-list-text">42</div>
-                                       </a>
+                                    <div class="engraving__radio-item">
+                                       <input type="radio" id="34" name="engraving" value="34"
+                                          class="engraving__radio-input">
+                                       <label for="34" class="engraving__radio-link">34</label>
+                                    </div>
+                                    <div class="engraving__radio-item">
+                                       <input type="radio" id="36" name="engraving" value="36"
+                                          class="engraving__radio-input">
+                                       <label for="36" class="engraving__radio-link">36</label>
                                     </div>
                                  </div>
                               </div>
@@ -1776,9 +1780,151 @@
 
    </div>
 </div>
+      <!-- popup -->
+<div class="popup-wrapper engraving" id="engraving">
+   <div class="popup-wrapper__container engraving__content">
+      <div class="popup popup-container engraving__container">
+
+         <!-- close popup -->
+         <div class="popup__close">
+            <a href="#header" class="popup__close-link close-popup"></a>
+         </div>
+
+         <!-- popup content -->
+         <form action="" class="engraving__form">
+            <div class="engraving__form-wrapper">
+               <div class="engraving__inner">
+                  <h3 class="engraving__title">Персональная гравировка изделия</h3>
+               </div>
+
+               <input type="text" class="engraving__input" placeholder="Введите надпись гравировки">
+
+               <h4 class="engraving__title">Выберите шрифт гравировки:</h4>
+               <div class="engraving__radio">
+                  <div class="engraving__radio-item">
+                     <input type="radio" id="option1" name="engraving" value="style1" checked class="engraving__radio-input">
+                     <label for="option1" class="engraving__radio-link">
+                        <picture><source srcset="img/img/brands/style1.webp" type="image/webp"><img src="img/img/brands/style1.png" alt="" class="engraving__radio-image"></picture>
+                     </label>
+                  </div>
+                  <div class="engraving__radio-item">
+                     <input type="radio" id="option2" name="engraving" value="style2" class="engraving__radio-input">
+                     <label for="option2" class="engraving__radio-link">
+                        <picture><source srcset="img/img/brands/style2.webp" type="image/webp"><img src="img/img/brands/style2.png" alt="" class="engraving__radio-image"></picture>
+                     </label>
+                  </div>
+                  <div class="engraving__radio-item">
+                     <input type="radio" id="option3" name="engraving" value="style3" class="engraving__radio-input">
+                     <label for="option3" class="engraving__radio-link">
+                        <picture><source srcset="img/img/brands/style3.webp" type="image/webp"><img src="img/img/brands/style3.png" alt="" class="engraving__radio-image"></picture>
+                     </label>
+                  </div>
+                  <div class="engraving__radio-item">
+                     <input type="radio" id="option4" name="engraving" value="style4" class="engraving__radio-input">
+                     <label for="option4" class="engraving__radio-link">
+                        <picture><source srcset="img/img/brands/style4.webp" type="image/webp"><img src="img/img/brands/style4.png" alt="" class="engraving__radio-image"></picture>
+                     </label>
+                  </div>
+               </div>
+            </div>
+
+            <div class="primary-btn">
+               <a href="" class="primary-btn__link">Добавить гравировку</a>
+            </div>
+         </form>
+      </div>
+   </div>
+</div>
+      <!-- popup -->
+<div class="popup-wrapper upakovka" id="upakovka">
+   <div class="popup-wrapper__container engraving__content">
+      <div class="popup popup-container engraving__container">
+
+         <!-- close popup -->
+         <div class="popup__close">
+            <a href="#header" class="popup__close-link close-popup"></a>
+         </div>
+
+         <!-- popup content -->
+         <div class="sidebar-price__body">
+            <div class="sidebar-price__body-wrap">
+               <div class="sidebar-price__body-item">
+                  <div class="sidebar-price__img">
+                     <picture><source srcset="img/img/no-img.webp" type="image/webp"><img src="img/img/no-img.jpg" width="" height="" alt="" title=""></picture>
+                  </div>
+                  <div class="sidebar-price__text">
+                     <div class="sidebar-price__text-wrapper">
+                        <div class="sidebar-price__text-upper">Подарочная упаковка 1</div>
+                        <div class="characteristics__color-header">
+                           <div class="characteristics__color-title">Стоимость:</div>
+                           <div class="characteristics__color-value">Бесплатно</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="sidebar-price__btn">
+                  <div class="light-btn">
+                     <a href="#engraving" class="light-btn__link popup-link">
+                        <div class="light-btn__text">Добавить</div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="sidebar-price__body-wrap">
+               <div class="sidebar-price__body-item">
+                  <div class="sidebar-price__img">
+                     <picture><source srcset="img/img/no-img.webp" type="image/webp"><img src="img/img/no-img.jpg" width="" height="" alt="" title=""></picture>
+                  </div>
+                  <div class="sidebar-price__text">
+                     <div class="sidebar-price__text-wrapper">
+                        <div class="sidebar-price__text-upper">Подарочная упаковка 1</div>
+                        <div class="characteristics__color-header">
+                           <div class="characteristics__color-title">Стоимость:</div>
+                           <div class="characteristics__color-value">Бесплатно</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="sidebar-price__btn">
+                  <div class="light-btn">
+                     <a href="#engraving" class="light-btn__link popup-link">
+                        <div class="light-btn__text">Добавить</div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="sidebar-price__body-wrap">
+               <div class="sidebar-price__body-item">
+                  <div class="sidebar-price__img">
+                     <picture><source srcset="img/img/no-img.webp" type="image/webp"><img src="img/img/no-img.jpg" width="" height="" alt="" title=""></picture>
+                  </div>
+                  <div class="sidebar-price__text">
+                     <div class="sidebar-price__text-wrapper">
+                        <div class="sidebar-price__text-upper">Подарочная упаковка 1</div>
+                        <div class="characteristics__color-header">
+                           <div class="characteristics__color-title">Стоимость:</div>
+                           <div class="characteristics__color-value">Бесплатно</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="sidebar-price__btn">
+                  <div class="light-btn">
+                     <a href="#engraving" class="light-btn__link popup-link">
+                        <div class="light-btn__text">Добавить</div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
 
    </div>
-   <script src="js/app.min.js?_v=20240531185432"></script>
+   <script src="js/app.min.js?_v=20240601132446"></script>
 </body>
 
 </html>
