@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="files/favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="css/main.min.css?_v=20240607231401">
+	<link rel="stylesheet" href="css/main.min.css?_v=20240608005256">
 	<title>Магазин мужских аксессуаров из натуральной кожи в Минске - Rembini.by</title>
    <meta name="description" content="Ваше описание здесь. Это описание будет отображаться в результатах поиска.">
 </head>
@@ -47,17 +47,17 @@
             </div>
 
             <div class="header-top__buttons">
-               <a href="tel:0966091280" class="header-top__btn-item header-top__btn-item_phone">
+               <div class="header-top__btn-item header-top__btn-item_phone">
                   <div class="header-top__btn-icon">
                      <svg class="header-top__svg" fill="currentColor">
                         <use xlink:href="img/sprite.svg#phone"></use>
                      </svg>
                   </div>
                   <div class="header-top__btn-text">
-                     <div class="header-top__btn-text-upper">+38 096 609 12 80</div>
+                     <a href="tel:380966091280" aria-label="Позвоните нам на номер +380966091280" class="header-top__btn-text-upper">+38 096 609 12 80</a>
                      <div class="header-top__btn-text-bottom">Пн-Пт c 9:00 до 13:00</div>
                   </div>
-               </a>
+               </div>
 
                <a href="#signin" class="header-top__btn-item header-top__btn-item_user popup-link">
                   <div class="header-top__btn-icon">
@@ -80,10 +80,12 @@
          <div class="header-center__wrapper">
             <!-- logo -->
             <div data-da=".header-top__left,768,1" class="header-center__logo">
-               <a href="index.html" class="header-center__logo-img">
-                  <picture><source srcset="img/img/logo.webp" type="image/webp"><img src="img/img/logo.png" width="" height="" alt="" title=""></picture>
-               </a>
-               <div class="header-center__logo-text">Men's accessories & gifts</div>
+               <div class="header-logo">
+   <a href="index.html" class="header-logo__logo-img">
+      <picture><source srcset="img/img/logo.webp" type="image/webp"><img src="img/img/logo.png" width="" height="" alt="" title=""></picture>
+   </a>
+   <div class="header-logo__logo-text">Men's accessories & gifts</div>
+</div>
             </div>
             <!-- search -->
             <div data-da=".main-mobile-menu__body,1140,0" class="header-center__search">
@@ -183,7 +185,8 @@
             <li>
                <a href="category-product.html">
                   <div class="header-bottom__menu-img">
-                     <img src="img/svg/menu/podtyajki.svg" width="32" height="36" alt="Иконка подтяжки" title="Подтяжки">
+                     <img src="img/svg/menu/podtyajki.svg" width="32" height="36" alt="Иконка подтяжки"
+                        title="Подтяжки">
                   </div>
                   <div class="header-bottom__menu-text">Подтяжки</div>
                </a>
@@ -210,7 +213,8 @@
             <li>
                <a href="category-product.html">
                   <div class="header-bottom__menu-img">
-                     <img src="img/svg/menu/rukavutsi.svg" width="45" height="41" alt="Иконка перчатки" title="Перчатки">
+                     <img src="img/svg/menu/rukavutsi.svg" width="45" height="41" alt="Иконка перчатки"
+                        title="Перчатки">
                   </div>
                   <div class="header-bottom__menu-text">Перчатки</div>
                </a>
@@ -2628,7 +2632,7 @@
       <div class="mobile-panel__titile">Главная</div>
    </a>
 
-   <a href="#secondary-mobile-menu" class="mobile-panel__item popup-link">
+   <a href="catalog.html" class="mobile-panel__item">
       <div class="mobile-panel__icon">
          <svg class="mobile-panel__svg" fill="currentColor">
             <use xlink:href="img/sprite.svg#catalog"></use>
@@ -2787,12 +2791,18 @@
          <div class="main-mobile-menu">
             <div class="main-mobile-menu__header">
                <!-- logo -->
-               <div class="main-mobile-menu__logo">
+               <div class="header-logo">
+   <a href="index.html" class="header-logo__logo-img">
+      <picture><source srcset="img/img/logo.webp" type="image/webp"><img src="img/img/logo.png" width="" height="" alt="" title=""></picture>
+   </a>
+   <div class="header-logo__logo-text">Men's accessories & gifts</div>
+</div>
+               <!-- <div class="main-mobile-menu__logo">
                   <div class="main-mobile-menu__logo-img">
                      <picture><source srcset="img/img/logo.webp" type="image/webp"><img src="img/img/logo.png" width="" height="" alt="" title=""></picture>
                   </div>
                   <div class="main-mobile-menu__logo-text">Men's accessories & gifts</div>
-               </div>
+               </div> -->
                <!-- close popup -->
                <div class="popup__close">
                   <a href="#header" class="popup__close-link close-popup"></a>
@@ -2938,7 +2948,7 @@
 </div>
 
    </div>
-   <script src="js/app.min.js?_v=20240607231401"></script>
+   <script src="js/app.min.js?_v=20240608005256"></script>
 </body>
 
 </html>
